@@ -3,6 +3,8 @@ html, body {
 	margin: 0;
 	padding: 0;
 	font-family: Raleway, sans-serif;
+
+    font-size: 21px;
 }
 
 * {
@@ -15,7 +17,7 @@ h3, h4 {
 	margin:0;
 }
 p {
-	margin:0 0 24px 0;
+	margin:0 0 10px 0;
 }
 .map {
 	height:600px;
@@ -34,14 +36,39 @@ p {
 	color:white;
 }
 .location-1 {
-	border-bottom:8px solid white;
 	background-color:#554738;
-	background-image:url( 'images/coffee_bg.jpg');
+	background-image:url( 'images/1วัดกุฎีดาว.jpg');
+    border-top: 16px solid white;
 }
 .location-2 {
-	border-top:8px solid white;
 	background-color:#383838;
-	background-image:url( 'images/office_bg.jpg');
+	background-image:url( 'images/2วัดมเหยงคณ์.jpg');
+    border-top: 16px solid white;
+}
+.location-3 {
+    background-color:#554738;
+    background-image:url( 'images/3วัดมหาธาตุ.jpg');
+    border-top: 16px solid white;
+}
+.location-4 {
+    background-color:#383838;
+    background-image:url( 'images/4วัดโลกยสุธาราม.jpg');
+    border-top: 16px solid white;
+}
+.location-5 {
+    background-color:#554738;
+    background-image:url( 'images/5วัดราชบูรณะ.jpg');
+    border-top: 16px solid white;
+}
+.location-6 {
+    background-color:#383838;
+    background-image:url( 'images/6วัดพระราม.jpg');
+    border-top: 16px solid white;
+}
+.location-7 {
+    background-color:#383838;
+    background-image:url( 'images/7วัดพระศรีสรรเพชญ์.jpg');
+    border-top: 16px solid white;
 }
 
 .location::after {
@@ -73,10 +100,10 @@ p {
 	}
 	.desk-three-forth {
 		float: left;
-		width:75%;
+		width:60%;
 	}
 	.desk-one-forth {
-		width:25%;
+		width:40%;
 	}
 	.map-legend, .location {
 		display:flex;
@@ -85,15 +112,19 @@ p {
 	}
 	.location {
 		border-left:none;
-		min-height:50%;
+		min-height:98.5%;
 		justify-content:center;
 		align-items:center	
 	}
-	.location-1 {
-		border-top:16px solid white;
-	}
-	.location-2 {
-		border-bottom:16px solid white;
+	.location-1, 
+    .location-2, 
+    .location-3, 
+    .location-4,
+    .location-5,
+    .location-6,
+    .location-7
+     {
+		border-bottom:8px solid white;
 	}
 }
 
